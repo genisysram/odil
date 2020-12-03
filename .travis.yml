@@ -50,6 +50,7 @@ matrix:
     - name: "Debian 9 (Stretch)"
       os: linux
       arch: ppc64le
+      dist: bionic
       sudo: required
       services:
         - docker
@@ -62,6 +63,7 @@ matrix:
     - name: "Debian 10 (Buster)"
       os: linux
       arch: ppc64le
+      dist: bionic
       sudo: required
       services:
         - docker
@@ -74,6 +76,7 @@ matrix:
     - name: "Ubuntu 18.04 (Bionic)"
       os: linux
       arch: ppc64le
+      dist: bionic
       sudo: required
       services:
         - docker
@@ -86,6 +89,7 @@ matrix:
     - name: "Ubuntu 20.04 (Focal)"
       os: linux
       arch: ppc64le
+      dist: bionic
       sudo: required
       services:
         - docker
